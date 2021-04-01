@@ -9,10 +9,36 @@
     <script src="https://kit.fontawesome.com/84fc6e0155.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand">LOGO</a>
+            <button class="navbar-toggler" type="button"
+            data-toggle="collapse" data-target="#content">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="content">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About US</a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Messages<span class="badge bg-success">12</span></a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
 
     <h3 class="display-4">Dashboard:</h3>
     <hr>
-        <table class="table">
+        <table class="table table-hover">
             <thead>
                 <tr>
                     <th>Name</th>
@@ -70,14 +96,13 @@
 
     <hr>
     <h5 class="display-5">Todos:</h5>
-    <div class="container-fluid my-2">
-        <div class="alert alert-success">Feel good about Bootstrap</div>
-        <div class="alert alert-info">Feel informed about Bootstrap</div>
-        <div class="alert alert-warning">Feel warned about Bootstrap</div>
-        <div class="alert alert-warning">Maybe I should read the docs...</div>
-        <div class="alert alert-danger">Danger Zone</div>
-        <div class="alert alert-danger"> I really should read the docs...</div>
-
+    <div class="list-group my-2">
+        <a href="#" class="list-group-item list-group-item-success">Feel good about Bootstap</a>
+        <a href="#" class="list-group-item list-group-item-info">Feel informed about Bootsrap</a>
+        <a href="#" class="list-group-item list-group-item-warning">Feel warned about Bootstrap</a>
+        <a href="#" class="list-group-item list-group-item-warning">Maybe I should read the docs...</a>
+        <a href="#" class="list-group-item list-group-item-danger">Danger Zone</a>
+        <a href="#" class="list-group-item list-group-item-danger">I really should read the docs...</a>
     </div>
 </body>
 </html>
